@@ -6,4 +6,9 @@ public class TestMain {
 	public void testNumberIsPositive() {
 		assertTrue(Main.checkIfNumberIsPositive(5));
 	}
+	
+	@Test
+	public void testNumberIsNegative() {
+		assertTrue(Main.checkIfNumberIsNegative(-5));
+	}
 }
